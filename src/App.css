@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin:15%;
 }
 
 .App-logo {
@@ -32,7 +36,57 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* .linea1{
+  position: absolute;
+  text-align: center;
+    margin-top: 54px;
+    color: #9acd32;
+    left:35%; 
+    font-size: 40px; 
+    text-shadow: 2px 0 0  #9acd32, 2px 0 0 #9acd32,  2px 0 0  #9acd32,  2px 0 0  #9acd32;
+  } */
+.meme .linea2 {
+  position:absolute;
+  /* text-align: center; */
+  margin-top: 550px;
+  color: #9acd32;
+  left: 0%;
+  font-size: 30px;
+  text-shadow: 2px 0 0 #9acd32, 2px 0 0 #9acd32, 2px 0 0 #9acd32, 2px 0 0 #9acd32;
+}
+
+.meme .linea1 {
+
+  color: #9acd32;
+  position: absolute;
+  margin-top:0px;
+  /* top: 15%; */
+  left: 0%;
+  font-size: 30px;
+  text-shadow: 2px 0 0 #9acd32, 2px 0 0 #9acd32, 2px 0 0 #9acd32, 2px 0 0 #9acd32;/* transform: translate(-1%, -1%); */
+}
+.meme span {
+  /* position: absolute; */
+  width: 100%;
+  /* left: 0px; */
+  /* margin-top: 50px; */
+  /* font-size: 38px; */
+  /* color:white; */
+  /* display: block;
+  justify-content: center;
+  align-items: center; */
+  text-shadow: 2px 0 0 #000,2px 0 0 #000,-2px 0 0 #000,0 2px 0 #000,2px 0  (255 250 250),1px 1px #000,-1px -1px 0 #000,1px 0 0 #000,;
+}
+/* .meme span:nth-child(1){
+  margin-top:290px;
+} */
+.mmeme img {
+  width: 100%;
+
 }
